@@ -1,7 +1,7 @@
 # HDB Resale Price Prediction
 For CS5228 Project
 
-This repo structure is as follows:
+This repo structure is as follows (Feel free to edit as necessary):
 ```
 ├── README.md          <- The top-level README for developers using this project.
 ├── data
@@ -17,9 +17,6 @@ This repo structure is as follows:
 │
 ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
 │   └── figures        <- Generated graphics and figures to be used in reporting
-│
-├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-│                         generated with `pip freeze > requirements.txt`
 │
 ├── src                <- Source code for use in this project.
 │   ├── __init__.py    <- Makes src a Python module
