@@ -2,7 +2,7 @@
 For CS5228 Project
 
 This repo structure is as follows:
-
+```
 ├── README.md          <- The top-level README for developers using this project.
 ├── data
 │   ├── interim        <- Intermediate data that has been transformed.
@@ -31,3 +31,4 @@ This repo structure is as follows:
 │   │   │                 predictions
 │   │   ├── predict_model.py
 │   │   └── train_model.py
+```
