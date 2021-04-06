@@ -22,7 +22,7 @@ def join_pop(df, pop):
     return df.join(pop[['subzone', 'avg']], lsuffix='subzone', rsuffix='subzone')
 
 def drop_cols(df):
-    df.drop(columns=['subzonesubzone', 'latitude', 'longitude', 'region'], inplace=True)
+    df.drop(columns=['subzone', 'latitude', 'longitude', 'region'], inplace=True)
     df.drop(columns = ['elevation', 'eco_category'], inplace=True) # confirm drop
     df.drop(columns = ['month', 'storey_range', 'block', 'street_name', 'planning_area', 'lease_commence_date'], inplace=True) # to discuss
     return df
